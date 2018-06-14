@@ -1,0 +1,881 @@
+* {
+    padding: 0px;
+    margin:0px;
+}
+
+.fletxes:hover .fletxa{
+    transform:scale(1.5);
+}
+
+/* menu principal del joc */
+
+.fons_01{
+    width: 1024px;
+    height: 768px;
+    position: relative;
+    background: url(../images/main_menu.jpg);
+}
+
+.menu{
+    background-image: url(../images/fletxa_00.png);
+    display: block;
+    background-size:contain;
+    height: 80px;
+    width: 80px;
+    position: fixed;
+    left: 60px;
+    top: 670px;
+    transition: all 0.5s;
+}
+.text_sinopsis{ 
+    width: 240px;
+    font-size:30px;
+    position: absolute;
+    top: 380px;
+    left: 530px;
+    color: greenyellow;
+    font-style:italic;
+    font-family:serif
+}
+.titol_sinopsis{
+    width: 240px;
+    font-size:35px;
+    position: absolute;
+    top: 330px;
+    left: 550px;
+    color: white;
+}
+
+
+ul, ol {
+        list-style:none;
+        
+    }
+
+.nav li a {
+        background-color:#000;
+        color:#fff;
+        text-decoration:none;
+        padding:10px 15px;
+        display:block;
+        position:relative;
+        top:350px;
+        left:600px;
+        width: 80px;
+        
+}
+
+.nav li a:hover {
+    background-color:gold;
+    
+    
+}
+.nav li:hover> ul {
+    display:block;
+}
+.nav li ul {
+    display:none;
+image-resolution:
+}
+
+/* Carta Invitació de L'avi  */
+
+.sala_carta_inicial{
+    width: 1024px;
+    height: 768px;
+    background-image: url(../images/fondo_carta_inicial.jpg);
+}
+
+.carta_inicial {
+    position: fixed;
+    top:410px;
+    left:300px;
+}
+
+
+.fletxa_01{
+    background-image: url(../images/fletxa_01.png);
+    display: block;
+    background-size:contain;
+    height: 20px;
+    width: 20px;
+    position: relative;
+    left: 80px;
+    top: 126px;
+    transition: all 0.5s; 
+}
+
+.carta{
+    width: 150px;
+    height: 175px;
+    margin: auto;
+    position:inherit; 
+}
+
+.carta_inicial:hover .carta {
+    transform:translateX(250px) translateY(-90px) scale(5);
+    animation: mover 0.5s;
+}
+
+
+.carta_01{
+    background-image: url(../images/hoja_papel.png);
+    background-size: 100%;
+    width: 106.5px;
+    height: 146px;
+    transition: all 0.5s;
+}
+
+/* Jardí */
+
+.garden{
+    width: 1024px;
+    height: 768px;
+    background: url(../images/garden.jpg) no-repeat;
+    
+}
+
+.estora_01{
+    height: 150px;
+    width: 170px;
+    position: absolute;
+    top: 536px;
+    left: 375px;
+    
+}
+
+.felpudo_01{
+    background-image: url(../images/felpudo.png);
+    display: block;
+    background-size:contain;
+    height: 100px;
+    width: 120px;
+    position: fixed;
+    top: 542px;
+    left: 400px;
+    transition: all 2.0s;
+    transition-delay: 0.5s;
+
+}
+
+.felpudo_01:hover {
+    transform: translate(50px, 30px);
+}
+
+.clau_casa{
+    background-image: url(../images/clau_casa_avi.png);
+    display: block;
+    background-size:contain;
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    left: 410px;
+    top: 550px;
+    transition: all 0.5s;
+}
+.clau_habitacio{
+ 
+    display: block;
+    background-size:contain;
+    height: 20px;
+    width: 20px;
+    position: fixed;
+    left: 800px;
+    top: 570px;
+    transition: 5s;
+}
+
+.clau_habitacio:hover{
+    background-image: url(../images/clau_habitacio_avi.png);
+    transform: scale(4);
+}
+
+.clau_casa:hover{
+    transform:scale(2);
+}
+
+/* Sala Principal */
+
+.sala_principal{
+    width: 1024px;
+    height: 768px;
+    background-image: url(../images/sala_principal.jpg);
+    
+}
+
+.porquito{
+    background-image: url(../images/cerdu.png);
+    display: block;
+    background-size:contain;
+    height: 140px;
+    width: 140px;
+    position: fixed;
+    left: 498px;
+    top: 80px;
+    transition: 0.5s;
+    transition-timing-function: ;
+    transition-delay: 2s;
+}
+
+.porquito:hover {
+    transform-origin: left top;
+    transform: rotate(-60deg);
+}
+
+.globus_G{
+    background-image: url(../images/roig.png);
+    display: block;
+    background-size:contain;
+    height: 90px;
+    width: 90px;
+    position: fixed;
+    left: 476px;
+    top: 140px;
+    transition-duration: 0.6s;
+}
+
+.globus_G:hover{
+    visibility: hidden;
+    
+}
+
+.nota_G{
+    background-image: url(../images/lletra_g.png);
+    display: block;
+    background-size:contain;
+    height: 26px;
+    width: 26px;
+    position: fixed;
+    left: 510px;
+    top: 156px;
+}
+
+.carta_avi_despedida{
+    position: fixed;
+    top:200px;
+    left:418px;
+}
+
+.carta_post-it{
+    width: 150px;
+    height: 175px;
+    margin: auto;
+    position:inherit; 
+}
+
+.carta_avi_despedida:hover .carta_post-it {
+    transform:translateX(100px) translateY(200px) scale(15);
+    animation: mover 0.5s;
+}
+
+
+.carta_avi{
+    background-image: url(../images/post-it.png);
+    background-size: 100%;
+    width: 34px;
+    height: 34px;
+    transition: all 0.5s;
+}
+
+
+
+.fletxa_03{
+    background-image: url(../images/fletxa_02.png);
+    display: block;
+    background-size:contain;
+    height: 70px;
+    width: 70px;
+    position: fixed;
+    left: 220px;
+    top: 160px;
+    transition: all 0.5s;
+}
+
+.fletxa_04{
+    background-image: url(../images/fletxa_02.png);
+    display: block;
+    background-size:contain;
+    height: 70px;
+    width: 70px;
+    position: fixed;
+    left: 710px;
+    top: 260px;
+    transition: all 0.5s;
+}
+
+.fletxa_05{
+    background-image: url(../images/fletxa_00.png);
+    display: block;
+    background-size:contain;
+    height: 70px;
+    width: 70px;
+    position: fixed;
+    left: 20px;
+    top: 570px;
+    transition: all 0.5s;
+}
+
+.fletxa_06{
+    background-image: url(../images/fletxa_01.png);
+    display: block;
+    background-size:contain;
+    height: 70px;
+    width: 70px;
+    position: fixed;
+    left: 920px;
+    top: 520px;
+    transition: all 0.5s;
+}
+
+.fletxa_07{
+    background-image: url(../images/fletxa_03.png);
+    display: block;
+    background-size:contain;
+    height: 70px;
+    width: 70px;
+    position: fixed;
+    left: 500px;
+    top: 684px;
+    transition: all 0.5s;  
+}
+
+/* wc_gran */
+
+.wc_gran{
+     width: 1024px;
+    height: 768px;
+    background: url(../images/wc_gran.jpg) no-repeat;
+}
+
+.globus_D{
+    background-image: url(../images/lila.png);
+    display: block;
+    background-size:contain;
+    height: 90px;
+    width: 90px;
+    position: fixed;
+    left: 476px;
+    top: 340px;
+    transition-duration: 0.2s;
+}
+
+.globus_D:hover{
+    visibility: hidden;
+    
+}
+
+.nota_D{
+    background-image: url(../images/lletra_d.png);
+    display: block;
+    background-size:contain;
+    height: 26px;
+    width: 26px;
+    position: fixed;
+    left: 510px;
+    top: 356px;
+}
+
+.radiador{
+    background-image: url(../images/radiador.png);
+    display: block;
+    background-size:contain;
+    height: 180px;
+    width: 180px;
+    position: fixed;
+    left: 435px;
+    top: 300px;
+    transition: 0.5s;
+    transition-delay: 2s;
+}
+
+.radiador:hover {
+    transform-origin: center top;
+    transform: translateY(-150px);
+}
+
+.fletxa_08{
+    background-image: url(../images/fletxa_03.png);
+    display: block;
+    background-size:contain;
+    height: 70px;
+    width: 70px;
+    position: fixed;
+    left: 700px;
+    top: 680px;
+    transition: all 0.5s;
+}
+
+/* cuina */
+
+.cuina{
+     width: 1024px;
+    height: 768px;
+    background: url(../images/cuina.jpg) no-repeat;
+}
+
+.globus_R{
+    background-image: url(../images/taronja.png);
+    display: block;
+    background-size:contain;
+    height: 90px;
+    width: 90px;
+    position: fixed;
+    left: 900px;
+    top: 160px;
+    transition-duration: 0.2s;
+}
+
+.globus_R:hover{
+    visibility: hidden;
+    
+}
+
+.nota_R{
+    background-image: url(../images/lletra_r.png);
+    display: block;
+    background-size:contain;
+    height: 26px;
+    width: 26px;
+    position: fixed;
+    left: 932px;
+    top: 170px;
+}
+
+.reloj{
+    background-image: url(../images/reloj_de_pared.png);
+    display: block;
+    background-size:contain;
+    height: 120px;
+    width: 120px;
+    position: fixed;
+    left: 880px;
+    top: 160px;
+    transition: 0.5s;
+    transition-delay: 2s;
+}
+
+.reloj:hover {
+    transform-origin: left top;
+    transform: rotate(-80deg);
+}
+
+.fletxa_09{
+    background-image: url(../images/fletxa_03.png);
+    display: block;
+    background-size:contain;
+    height: 70px;
+    width: 70px;
+    position: fixed;
+    left: 280px;
+    top: 680px;
+    transition: all 0.5s;
+}
+
+/* rebost */
+
+.rebost{
+     width: 1024px;
+    height: 768px;
+    background: url(../images/bodega.jpg) no-repeat;
+}
+
+.globus_N{
+    background-image: url(../images/groc.png);
+    display: block;
+    background-size:contain;
+    height: 90px;
+    width: 90px;
+    position: fixed;
+    left: 386px;
+    top: 240px;
+    transition-duration: 0.2s;
+}
+
+.globus_N:hover{
+    visibility: hidden;
+    
+}
+
+.nota_N{
+    background-image: url(../images/lletra_n.png);
+    display: block;
+    background-size:contain;
+    height: 26px;
+    width: 26px;
+    position: fixed;
+    left: 420px;
+    top: 260px;
+}
+
+.armari{
+    background-image: url(../images/armari_01.png);
+    display: block;
+    background-size:contain;
+    height: 200px;
+    width: 200px;
+    position: fixed;
+    left: 300px;
+    top: 190px;
+}
+
+.fons_negre_armari{
+    background-color: black;
+    width: 100px;
+    height: 174px;
+    position: fixed;
+    left:387px;
+    top:200px;
+}
+
+.porta_armari{
+    background-image: url(../images/armari_02.png);
+    display: block;
+    background-size:contain;
+    height: 206px;
+    width: 95px;
+    position: fixed;
+    left: 405px;
+    top: 187px;
+    transition: 0.5s;
+    transition-delay: 2s;
+}
+
+.porta_armari:hover {
+    transform-origin: right;
+    transform: rotateY(70deg) translateX(-36px);
+}
+
+.fletxa_10{
+      background-image: url(../images/fletxa_03.png);
+    display: block;
+    background-size:contain;
+    height: 70px;
+    width: 70px;
+    position: fixed;
+    left: 220px;
+    top: 680px;
+    transition: all 0.5s;
+}
+
+/* passadís */
+
+
+.passadis{
+   width: 1024px;
+    height: 768px;
+    background: url(../images/passadis.jpg) no-repeat; 
+}
+
+.fletxa_11{
+      background-image: url(../images/fletxa_03.png);
+    display: block;
+    background-size:contain;
+    height: 70px;
+    width: 70px;
+    position: fixed;
+    left: 10px;
+    top: 380px;
+    transition: all 0.5s;
+}
+
+.fletxa_13{
+    background-image: url(../images/fletxa_03.png);
+    display: block;
+    background-size:contain;
+    height: 70px;
+    width: 70px;
+    position: fixed;
+    left: 350px;
+    top: 530px;
+    transition: all 0.5s;
+}
+
+.imatge_key{
+    background-image: url(../images/clau_habitacio_avi.png);
+    display: block;
+    background-size:contain;
+    height: 70px;
+    width: 70px;
+    position: fixed;
+    left: 700px;
+    top: 135px;
+    transition: all 0.5s;
+}
+
+.fletxa_15{
+    background-image: url(../images/fletxa_01.png);
+    display: block;
+    background-size:contain;
+    height: 70px;
+    width: 70px;
+    position: fixed;
+    left: 890px;
+    top: 420px;
+    transition: all 0.5s;
+}
+
+.need_key{
+    position: relative;
+    top: 100px;
+    left:702px;
+    color: gold;
+    width: 70px;
+}
+
+/* wc_petit */
+
+.wc_petit{
+   width: 1024px;
+    height: 768px;
+    background: url(../images/wc_petit.jpg) no-repeat; 
+}
+
+.globus_E{
+    background-image: url(../images/blau.png);
+    display: block;
+    background-size:contain;
+    height: 90px;
+    width: 90px;
+    position: fixed;
+    left: 470px;
+    top: 330px;
+    transition-duration: 0.2s;
+}
+
+.globus_E:hover{
+    visibility: hidden;
+    
+}
+
+.nota_E{
+    background-image: url(../images/lletra_e.png);
+    display: block;
+    background-size:contain;
+    height: 26px;
+    width: 26px;
+    position: fixed;
+    left: 502px;
+    top: 340px;
+}
+
+.basura{
+    background-image: url(../images/cubo_de_basura_wc.png);
+    display: block;
+    background-size:contain;
+    height: 160px;
+    width: 160px;
+    position: fixed;
+    left: 420px;
+    top: 330px;
+    transition: 0.5s;
+    transition-delay: 2s;
+}
+
+.basura:hover {
+    transform: translateX(150px);
+}
+
+.fletxa_12{
+    background-image: url(../images/fletxa_03.png);
+    display: block;
+    background-size:contain;
+    height: 70px;
+    width: 70px;
+    position: fixed;
+    left: 700px;
+    top: 680px;
+    transition: all 0.5s;
+}
+
+/* habitació_avi */
+
+.habitacio_avi{
+   width: 1024px;
+    height: 768px;
+    background: url(../images/habitacio-yayo.jpg) no-repeat; 
+}
+
+.fletxa_14{
+    background-image: url(../images/fletxa_03.png);
+    display: block;
+    background-size:contain;
+    height: 70px;
+    width: 70px;
+    position: fixed;
+    left: 400px;
+    top: 680px;
+    transition: all 0.5s;
+}
+
+.cofre_avi{
+    width: 150px;
+    height: 150px;
+    background: url(../images/cofre_avi.png) no-repeat;
+    position: absolute;
+    top: 430px;
+    left:650px;
+}
+
+.clau_habitacio_avi{
+    background-image: url(../images/clau_habitacio_avi.png);
+    display: block;
+    background-size:contain;
+    height: 80px;
+    width: 80px;
+    position: fixed;
+    left: 700px;
+    top: 550px;
+    transition: all 0.5s;
+}
+
+.clau_habitacio_avi:hover{
+    transform: rotate(-450deg);
+}
+
+
+/* habitació_d'invitats */
+
+.habitacio_convidats{
+   width: 1024px;
+    height: 768px;
+    background: url(../images/habitacio_invitats.jpg) no-repeat; 
+}
+
+.globus_A{
+    background-image: url(../images/verd.png);
+    display: block;
+    background-size:contain;
+    height: 90px;
+    width: 90px;
+    position: fixed;
+    left: 880px;
+    top: 528px;
+    transition-duration: 0.2s;
+}
+
+.globus_A:hover{
+    visibility: hidden;
+    
+}
+
+.nota_A{
+    background-image: url(../images/lletra_a.png);
+    display: block;
+    background-size:contain;
+    height: 26px;
+    width: 26px;
+    position: fixed;
+    left: 914px;
+    top: 540px;
+}
+
+.radio{
+    background-image: url(../images/radiocasette.png);
+    display: block;
+    background-size:contain;
+    height: 120px;
+    width: 120px;
+    position: fixed;
+    left: 860px;
+    top: 500px;
+    transition: 0.5s;
+    transition-delay: 2s;
+}
+
+.radio:hover {
+    transform: translateX(-100px);
+}
+
+.fletxa_16{
+    background-image: url(../images/fletxa_03.png);
+    display: block;
+    background-size:contain;
+    height: 70px;
+    width: 70px;
+    position: fixed;
+    left: 480px;
+    top: 680px;
+    transition: all 0.5s;
+}
+
+/* carta_final */
+
+.carta_final{
+    width: 1024px;
+    height: 768px;
+    background: url(../images/fons_carta_final.jpg) no-repeat; 
+}
+
+.text_final{
+     width: 700px;
+    height: 300px;
+    font-family: monospace;
+    font-size: 39px;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+
+.viatge_avio{
+    background-image: url(../images/billetes_de_avion.png);
+    display: block;
+    background-size:contain;
+    width: 221px;
+    height: 99px;
+    position: fixed;
+    top: 50px;
+    left: 730px;
+    transition: 2s;
+    transform: rotate(-30deg);
+}
+
+.viatge_avio:hover{
+    transform: scale(1.5);
+}
+
+.mapa_tresor{
+    background-image: url(../images/mapa_tresor.jpg);
+    display: block;
+    background-size:contain;
+    width: 200px;
+    height: 150px;
+    position: fixed;
+    top: 450px;
+    left: 740px;
+    transition: 2s;
+}
+
+.mapa_tresor:hover{
+    transform: scale(1.5);
+}
+
+.fletxa_17{
+    background-image: url(../images/fletxa_03.png);
+    display: block;
+    background-size:contain;
+    height: 70px;
+    width: 70px;
+    position: fixed;
+    left: 480px;
+    top: 680px;
+    transition: all 0.5s;
+}
+
+.go_home{
+    background: url(/imatges/go_home.png);
+    width: 60px;
+    height: 768px;
+    position: relative;
+    left:1034px;
+    bottom: 768px;
+    border-radius: 7px;
+}
+
+
+
+
+
+
+
+
+

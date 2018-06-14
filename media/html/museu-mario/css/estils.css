@@ -1,0 +1,543 @@
+body{
+    margin: 0px;
+}
+.background{
+    width: 1024px;
+    height: 768px;
+    position: relative;
+    background: url(../images/pantalla-principal.jpg) no-repeat;
+
+}
+a{
+    color: white;
+    text-decoration:none;
+    position: relative;
+    left: 10px;
+    top: 10px
+}
+.patata{
+    background-image: url(../images/fletxa.png);
+    display: block;
+    width: 100px;
+    height: 85px;
+    position: absolute;
+    z-index: 1;
+}
+.enrere{
+    
+    position: absolute;
+    left: 10px;
+    top: 30px;
+    width: 100px;
+    height: 85px;
+    background-color: transparent;
+    text-decoration: none;
+}
+.mario-peach{
+    background-image: url(../images/mario-peach.png);
+    width: 400px;
+    height: 450px;
+    position: absolute;
+    top:50px;
+    left:300px;
+}
+.nintendo{
+    background-image: url(../images/Nintendo-logo.png);
+    width: 400px;
+    height: 98px;
+    position: absolute;
+    top: 550px;
+    left: 300px;
+}
+.bowser{
+    background-image: url(../images/Bowser.png);
+    width: 334px;
+    height: 600px;
+    position: absolute;
+    bottom: 250px;
+    left: 690px;
+    
+}
+.opcions{
+    font-size: 20px;
+    position:absolute;
+    top: 300px;
+    margin: 30px;
+    padding: 20px;
+    list-style: none;
+    width: 150px;
+    height: 350px;
+}
+.sales{
+    background: url(../images/Brick-in-line.png) no-repeat;
+    height: 50px;
+    width: 150px;
+    margin-bottom: 20px;
+}
+.videojocs{
+    background: url(../images/Brick-in-line.png) no-repeat;
+    height: 50px;
+    width: 150px;
+    margin-bottom: 20px;
+}
+.personatges{
+    background: url(../images/Brick-in-line.png) no-repeat;
+    height: 50px;
+    width: 150px;
+    margin-bottom: 20px;
+}
+.credits{
+    background: url(../images/Brick-in-line.png) no-repeat;
+    height: 50px;
+    width: 150px;
+    margin-bottom: 20px;
+}
+}
+.subopcions{
+    position: relative;
+    left: 10px;
+    top: 10px;
+    width: 130px;
+    height: 30px;
+}
+
+.salao{
+    position: absolute;
+    left: 10px;
+    top: 250px;
+    font-size: 40px;
+    text-align: center;
+    width: 250px;
+    height: 50px;
+}
+.oest{
+    background-image: url(../images/sala-oest.jpg);
+    position: absolute;
+    left: 10px;
+    top: 300px;
+    width: 250px;
+    height: 98px;
+}
+.textW{
+    position: absolute;
+    left: 10px;
+    top: 408px;
+    font-size: 20px;
+    text-align: center;
+    width: 250px;
+    height: 300px;
+}
+.salan{
+    position: relative;
+    text-align: center;
+    top: 40px;
+    font-size: 50px;
+}
+.nord{
+    background-image: url(../images/sala-nord.jpg);
+    width: 450px;
+    height: 270px;
+    position: absolute;
+    left: 288px;
+    top: 100px;
+}
+.textN{
+    position: absolute;
+    left: 308px;
+    top: 380px;
+    width: 410px;
+    height: 270px;
+    font-size: 20px;
+    text-align: center;
+}
+.salae{
+    position: absolute;
+    left: 764px;
+    top: 250px;
+    font-size: 40px;
+    text-align: center;
+    width: 250px;
+    height: 50px;
+    
+}
+.est{
+    background-image: url(../images/sala-este.jpg);
+    position: absolute;
+    left: 764px;
+    top: 300px;
+    width: 250px;
+    height: 98px;
+}
+.textE{
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    left: 764px;
+    top: 408px;
+    width: 250px;
+    height: 300px;
+}
+
+
+.primerafila{
+    display: inline-block;
+    list-style: none;
+    width: 1024px;
+    height: 250px;
+    position: relative;
+    top:30px;
+    
+}
+.nom1{
+    width: 188px;
+    height: 50px;
+    position: absolute;
+    left: 120px;
+    top:320px;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 30px;
+    z-index: 1;
+}
+.mariu{
+    background-image: url(../images/Mario.png);
+    width: 188px;
+    height: 250px;
+    position: absolute;
+    left: 120px;
+    
+}
+.nom2{
+    width: 139px;
+    height: 50px;
+    position: absolute;
+    left: 338px;
+    top:320px;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 30px;
+    z-index: 1;
+}
+.luigi{
+    background-image: url(../images/Luigi.png);
+    width: 139px;
+    height: 250px;
+    position: absolute;
+    left: 338px;
+}
+.nom3{
+    width: 133px;
+    height: 50px;
+    position: absolute;
+    left: 527px;
+    top:320px;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 30px;
+    z-index: 1;
+}
+.peach{
+    background-image: url(../images/Peach.png);
+    width: 133px;
+    height: 250px;
+    position: absolute;
+    left: 527px;
+}
+.nom4{
+    width: 239px;
+    height: 50px;
+    position: absolute;
+    left: 670px;
+    top:320px;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 30px;
+    z-index: 1;
+}
+.toad{
+    background-image: url(../images/Toad.png);
+    width: 239px;
+    height: 250px;
+    position: absolute;
+    left: 670px;
+}
+.segonafila{
+    display: inline-block;
+    list-style: none;
+    width: 1024px;
+    height: 250px;
+    position: relative;
+    top: 110px;
+}
+.nom5{
+    width: 172px;
+    height: 50px;
+    position: absolute;
+    left: 30px;
+    top:690px;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 30px;
+    z-index: 1;
+}
+.yoshi{
+    background-image: url(../images/Yoshi.png);
+    width: 172px;
+    height: 250px;
+    position: absolute;
+    left: 30px;
+}
+.nom6{
+    width: 224px;
+    height: 50px;
+    position: absolute;
+    left: 232px;
+    top:690px;;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 30px;
+    z-index: 1;
+}
+.donkey{
+    background-image: url(../images/Donkey-Kong.png);
+    width: 224px;
+    height: 250px;
+    position: absolute;
+    left: 232px;
+}
+.nom7{
+    width: 250px;
+    height: 50px;
+    position: absolute;
+    left: 486px;
+    top:690px;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 30px;
+    z-index: 1;
+}
+.bowser2{
+    background-image: url(../images/Bowser2.png);
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    left: 486px;
+}
+.nom8{
+    width: 216px;
+    height: 50px;
+    position: absolute;
+    left: 766px;
+    top:690px;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 30px;
+    z-index: 1;
+}
+.wario{
+    background-image: url(../images/Wario.png);
+    width: 216px;
+    height: 250px;
+    position: absolute;
+    left: 766px;
+}
+
+
+
+.backgroundv{
+    width: 1024px;
+    height: 768px;
+    position: relative;
+    background: url(../images/pantalla-principal.jpg);
+
+}
+
+.mario1{
+    background-image: url(../images/mario1.jpg);
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    left: 220px;
+    top:50px;   
+}
+
+p.teext1{
+  position: absolute;
+    left: 250px;
+    top: 225px;
+    width: 170px;
+    height: 30px;
+    color: white;
+}
+.supermario{
+    background-image: url(../images/mario2.jpg);
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    left: 440px;
+    top:50px;   
+}
+p.teext2{
+  position: absolute;
+    left: 445px;
+    top: 225px;
+    width: 175px;
+    height: 30px;
+    color: white;
+}
+.mario3{
+    background-image: url(../images/mario3.jpg);
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    left: 630px;
+    top:50px;   
+}
+p.teext3{
+  position: absolute;
+    left: 630px;
+    top: 225px;
+    width: 170px;
+    height: 30px;
+    color: white;
+}
+.mario4{
+    background-image: url(../images/mario4.jpg);
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    left: 220px;
+    top:230px;   
+}
+p.teext4{
+  position: absolute;
+    left: 230px;
+    top: 400px;
+    width: 170px;
+    height: 30px;
+    color: white;
+}
+.mario5{
+    background-image: url(../images/mario5.jpg);
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    left: 400px;
+    top:230px;   
+}
+p.teext5{
+  position: absolute;
+    left: 420px;
+    top: 400px;
+    width: 170px;
+    height: 30px;
+    color: white;
+}
+.mario6{
+    background-image: url(../images/mario6.jpg);
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    left: 580px;
+    top:230px;   
+}
+p.teext6{
+  position: absolute;
+    left: 590px;
+    top: 400px;
+    width: 170px;
+    height: 30px;
+    color: white;
+}
+.mario7{
+    background-image: url(../images/mario7.jpg);
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    left: 760px;
+    top:230px;   
+}
+p.teext7{
+  position: absolute;
+    left: 770px;
+    top: 400px;
+    width: 170px;
+    height: 30px;
+    color: white;
+}
+.mario8{
+    background-image: url(../images/mario8.jpg);
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    left: 220px;
+    top:400px;   
+}
+p.teext8{
+  position: absolute;
+    left: 230px;
+    top: 570px;
+    width: 170px;
+    height: 30px;
+    color: white;
+}
+.mario9{
+    background-image: url(../images/mario9.jpg);
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    left: 400px;
+    top:400px;   
+}
+p.teext9{
+  position: absolute;
+    left: 410px;
+    top: 570px;
+    width: 170px;
+    height: 30px;
+    color: white;
+}
+p.kevin{
+  position: relative;
+    left: 280px;
+    top: 250px;
+    width: 400px;
+    height: 30px;
+    color: white;
+    font-size:40px;
+}
+p.pau{
+  position: relative;
+    left: 280px;
+    top: 250px;
+    width: 400px;
+    height: 30px;
+    color: white;
+    font-size: 40px;
+}
+p.creat{
+  position: relative;
+    left: 260px;
+    width: 300px;
+    height: 60px;
+    color: white;
+    font-size:50px;
+}
+.mario-luigi{
+    background-image: url(../images/mario-luigi.png);
+    position: absolute;
+    left: 600px;
+    top: 400px;
+    width: 402px;
+    height: 350px;
+}
+
+.go_home{
+    background: url(/imatges/go_home.png);
+    width: 60px;
+    height: 768px;
+    position: relative;
+    left:1034px;
+    bottom: 778px;
+    border-radius: 7px;
+}
