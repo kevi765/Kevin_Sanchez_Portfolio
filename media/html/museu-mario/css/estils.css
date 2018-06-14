@@ -533,7 +533,7 @@ p.creat{
 }
 
 .go_home{
-    background: url(/imatges/go_home.png);
+    background: url(../../../../imatges/go_home.png);
     width: 60px;
     height: 768px;
     position: relative;
