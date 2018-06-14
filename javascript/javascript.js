@@ -18,14 +18,14 @@ var poster_actual = '';
 var temps_sencer= '';
 
 boto_video2d.onclick = function(){
-    video_actual = '/media/videos/videoreel2d.mp4';
-    poster_actual = '/imatges/poster_animation_2d.png';
+    video_actual = '../media/videos/videoreel2d.mp4';
+    poster_actual = '../imatges/poster_animation_2d.png';
     temps_sencer='/24:50';
     reinici_valors();
 }
 boto_video3d.onclick = function(){
-    video_actual='/media/videos/videoreel3d.mp4';
-    poster_actual='/imatges/poster_animation_3d.png';
+    video_actual='../media/videos/videoreel3d.mp4';
+    poster_actual='../imatges/poster_animation_3d.png';
     temps_sencer='/26:00';
     reinici_valors();
 }
